@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    /* Ensure the header spans the entire width of its container */
+    display: flex;
+    /* Use flexbox to align items */
+    justify-content: center;
+    background-image: url('src/photo/groupPhoto.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Center the image horizontally */
+}
+
+.header h1 {
+    margin: 15%;
+}
+
+
+.header-img {
+    width: 100%;
+    /* Make the image span the entire width of its container */
+    height: 60%;
+    /* Maintain the aspect ratio */
+    max-width: 100%;
+    position: relative;
+
+    /* Ensure the image doesn't exceed its original size */
+}
