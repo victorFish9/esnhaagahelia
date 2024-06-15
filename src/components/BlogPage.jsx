@@ -18,6 +18,7 @@ function BlogPage({ }) {
                         price={block.price}
                         photo={block.photo}
                         date={block.date}
+                        linkToEvent={block.linkToEvent}
                     />
                 ))}
                 {esnCardBlock && (
@@ -26,7 +27,8 @@ function BlogPage({ }) {
                         title={esnCardBlock.title}
                         description={esnCardBlock.description}
                         price={esnCardBlock.price}
-                        photo={esnCardBlock.photo} />
+                        photo={esnCardBlock.photo}
+                        date={esnCardBlock.date} />
                 )}
             </div>
         </div>

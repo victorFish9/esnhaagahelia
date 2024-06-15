@@ -47,6 +47,7 @@ export default function Events() {
                             description={block.description}
                             price={block.price}
                             photo={block.photo}
+                            date={block.date}
                         />
                     ))}
                 </div>
@@ -63,6 +64,7 @@ export default function Events() {
                             description={block.description}
                             price={block.price}
                             photo={block.photo}
+                            date={block.date}
                         />
                     ))}
                 </div>
