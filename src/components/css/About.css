@@ -22,5 +22,12 @@
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+    .photo-text-box {
+        flex-direction: column;
+    }
 }

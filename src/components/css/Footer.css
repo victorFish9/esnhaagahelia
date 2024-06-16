@@ -4,7 +4,7 @@
     align-items: center;
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
 .social-icons {
@@ -21,4 +21,6 @@
 
 .address {
     text-align: center;
+    font-size: 25px;
+    margin: 10px;
 }

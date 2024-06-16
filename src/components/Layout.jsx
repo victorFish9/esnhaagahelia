@@ -33,10 +33,10 @@ const Layout = () => {
                             <button className="button"> Information &nbsp; ▼</button>
                             <div className="dropdown-content">
                                 {/* <Link to="/esnWebsite/articlePage1" id="top">Accommodation</Link> */}
-                                <Link to="/esnhaagahelia/events" id="middle" onClick={closeNavbar}>Events</Link>
+                                {/* <Link to="/esnhaagahelia/events" id="middle" onClick={closeNavbar}>Events</Link> */}
                                 {/* <Link to="/esnWebsite/articlePage2" id="bottom">What to bring with you to Finland?</Link> */}
                                 {articles.map((article, index) => (
-                                    <Link key={article.id} to={`/esnhaagahelia/${article.id}`} id={`article-${index}`} onClick={closeNavbar}>
+                                    <Link key={article.id} to={`/esnhaagahelia/${article.id}`} id="middle" onClick={closeNavbar}>
                                         {article.title}
                                     </Link>
                                 ))}
