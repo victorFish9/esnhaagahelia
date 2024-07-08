@@ -14,7 +14,7 @@ function App() {
     <>
 
       <Routes>
-        <Route path='/esnhaagahelia/' element={<Layout />}>
+        <Route path='/' element={<Layout />}>
           <Route index element={<Home imagePath={myImage} />} />
           <Route path='about' element={<About imagePath={myImage} />} />
           <Route path='events' element={<Events />} />
