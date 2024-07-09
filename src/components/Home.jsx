@@ -10,8 +10,8 @@ export default function Home(props) {
             <div className='container'>
                 <div className='header' style={{ backgroundImage: `url(${props.imagePath})` }}>
                     <h1 style={{ textAlign: 'center' }}>WELCOME TO OUR WEBPAGE</h1>
-
                 </div>
+                <h2>Upcoming events</h2>
                 <BlogPage />
             </div>
             <Outlet />

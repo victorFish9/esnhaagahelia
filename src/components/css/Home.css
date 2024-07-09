@@ -27,23 +27,36 @@
     /* Ensure the image doesn't exceed its original size */
 }
 
+h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
 @media (max-width: 600px) {
     .header {
         justify-content: flex-start;
         /* Align content to the start on small screens */
         background-attachment: scroll;
         /* Disable fixed background for better performance */
+        height: 40vh;
+        object-fit: cover;
     }
 
     .header h1 {
         margin: 10%;
-        /* Reduce margin for smaller screens */
         font-size: 1.5em;
-        /* Adjust font size for better readability */
+        display: flex;
+        align-items: center;
     }
 
     .header-img {
-        height: auto;
-        /* Ensure height is auto to maintain aspect ratio */
+        height: 80vh;
+        object-fit: cover;
+
+    }
+
+    h2 {
+        font-size: 2em;
     }
 }
