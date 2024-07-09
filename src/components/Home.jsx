@@ -1,8 +1,8 @@
 import Block from './Block';
 import BlogPage from './BlogPage';
 import { Outlet } from 'react-router-dom';
-
 import './css/Home.css';
+
 export default function Home(props) {
     return (
         <>

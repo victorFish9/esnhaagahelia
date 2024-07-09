@@ -4,7 +4,6 @@
     display: flex;
     /* Use flexbox to align items */
     justify-content: center;
-    background-image: url('src/photo/groupPhoto.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -26,4 +25,25 @@
     position: relative;
 
     /* Ensure the image doesn't exceed its original size */
+}
+
+@media (max-width: 600px) {
+    .header {
+        justify-content: flex-start;
+        /* Align content to the start on small screens */
+        background-attachment: scroll;
+        /* Disable fixed background for better performance */
+    }
+
+    .header h1 {
+        margin: 10%;
+        /* Reduce margin for smaller screens */
+        font-size: 1.5em;
+        /* Adjust font size for better readability */
+    }
+
+    .header-img {
+        height: auto;
+        /* Ensure height is auto to maintain aspect ratio */
+    }
 }
