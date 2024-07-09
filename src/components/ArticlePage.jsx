@@ -4,7 +4,7 @@ export default function ArticlePage(props) {
         <>
             <div className="article-main">
                 <div className='image-container' style={{ backgroundImage: `url(${props.imagePath})` }}></div>
-                <h1>
+                <h1 className='article-h'>
                     {props.title}
                 </h1>
                 <div className='article-p'>

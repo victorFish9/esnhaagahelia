@@ -29,7 +29,16 @@
 
 @media (max-width: 600px) {
     .image-container {
-        height: 300px;
+        justify-content: flex-start;
+        background-attachment: scroll;
+        height: 40vh;
+        overflow: hidden;
+        object-fit: cover;
+
+    }
+
+    .article-h {
+        font-size: 2.3em;
     }
 
     .article-p {
