@@ -48,6 +48,14 @@ const blocksData = [
         date: "2024-10-11",
         linkToEvent: "https://www.timetravels.com/adventure-trip-to-iceland-0124-is-00000056.html"
     },
+    {
+        id: 7,
+        title: "Test",
+        description: "Reykjavik, Kerid, Reynisfjara, Vik, Laugarvatn",
+        photo: "https://www.timetravels.com/cdn-cgi/image/width=771,height=525,fit=cover,onerror=redirect/media/catalog/product/d/s/dsc05175-min_2.jpg",
+        date: "2024-10-15",
+        linkToEvent: "https://www.timetravels.com/adventure-trip-to-iceland-0124-is-00000056.html"
+    },
 ];
 
 export default blocksData;
