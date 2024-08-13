@@ -7,8 +7,8 @@ export default function Events() {
     const [previousIndex, setPreviousIndex] = useState(0)
     const currentDate = new Date()
 
-    const upcomingEvents = blocksData.filter(block => new Date(block.date) >= currentDate);
-    const previousEvents = blocksData.filter(block => new Date(block.date) < currentDate);
+    const upcomingEvents = blocksData.filter(block => new Date(block.date) >= currentDate).sort((a, b) => new Date(a.date) - new Date(b.date));
+    const previousEvents = blocksData.filter(block => new Date(block.date) < currentDate).sort((a, b) => new Date(a.date) - new Date(b.date));
 
 
     const nextUpcomingBlock = () => {
