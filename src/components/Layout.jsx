@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import './css/Layout.css';
 import { useState } from "react";
-import esnImage from '/Users/admin/Desktop/ESN_Haaga-Helia/esnWebsite/src/photo/ESN-logo-full-colour-safe-space-rgb.png'
+import esnImage from '../photo/ESN-logo-full-colour-safe-space-rgb.png'
 import articles from "../articles";
 
 
