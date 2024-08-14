@@ -14,10 +14,10 @@ function App() {
     <>
 
       <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route path='/esnhaagahelia' element={<Layout />}>
           <Route index element={<Home imagePath={myImage} />} />
-          <Route path='about' element={<About imagePath={myImage} />} />
-          <Route path='events' element={<Events />} />
+          <Route path='/esnhaagahelia/about' element={<About imagePath={myImage} />} />
+          <Route path='/esnhaagahelia/events' element={<Events />} />
           {articles.map(article => (
             <Route
               key={article.id}
