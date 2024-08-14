@@ -1,6 +1,6 @@
 import Home from './components/Home'
 import About from './components/About'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import Footer from './components/Footer'
 import Events from './components/Events'
