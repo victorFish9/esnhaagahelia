@@ -5,7 +5,7 @@ import Layout from './components/Layout'
 import Footer from './components/Footer'
 import Events from './components/Events'
 import ArticlePage from './components/ArticlePage'
-import myImage from '/Users/admin/Desktop/ESN_Haaga-Helia/esnhaagahelia/src/photo/groupPhoto.jpeg'
+import myImage from './photo/groupPhoto.jpeg'
 import articles from './articles'
 
 function App() {

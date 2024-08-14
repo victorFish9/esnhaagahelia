@@ -1,5 +1,5 @@
-import groupPhoto from '/Users/admin/Desktop/ESN_Haaga-Helia/esnWebsite/src/photo/groupPhoto.jpeg'
-import esnCardPhoto from '/Users/admin/Desktop/ESN_Haaga-Helia/esnWebsite/src/photo/esnCard.png'
+import groupPhoto from './photo/groupPhoto.jpeg'
+import esnCardPhoto from './photo/esnCard.png'
 const blocksData = [
     {
         id: 1,
