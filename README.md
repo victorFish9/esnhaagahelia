@@ -1,1 +1,1 @@
-Website which provides inforamtion for Exchange students
+
